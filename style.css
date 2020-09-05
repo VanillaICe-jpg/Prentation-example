@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 
 *{
+  text-decoration: none;
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -9,8 +10,8 @@
 
 :root{
   --bg: #f5f5f5;
-  --fg: #141414;
-  --cardbg: #EEE;
+  --fg: #000000;
+  --cardbg: #DEE2E6;
   --buttonbg:#e4e6e6;
   --accent: #FFAC33;
 
@@ -18,7 +19,7 @@
 }
 
 body{
-  background-color: #f5f5f5;
+  background-color: #343A40;
   color: var(--fg);
   font-family: 'Raleway', sans-serif;
 }
@@ -52,7 +53,9 @@ border-radius: 50%;
 }
 
 .Subtitle{
+  color: #343A40;
   margin-top:  10px;
+  margin-bottom: 10px;
 }
 
 .text{
@@ -63,9 +66,12 @@ border-radius: 50%;
 
 li{
   list-style: none;
+  margin-bottom: 5px;
+  color: black;
 }
 
 .block{
+  color: #343A40;
     margin-bottom: 20px;
 }
 
@@ -78,24 +84,14 @@ li{
 }
 
 .button{
-  background-color: var(--buttonbg);
-  text-decoration: none;
-  color: var(--fg);
   transition: all .3s ease-out;
-
-  font-size: 15px;
-  padding: 10px;
-  border-radius:  var(--border);
-  box-shadow:  0 2px 5px rgba(0,0,0,.6);
 }
 
 .button:hover {
-  background-color: var(--accent);
-  box-shadow: 0 7px 12px;
   transform: translateY(-10px);
 }
 
 li:hover{
-  color: blue;
+  color: #212529;
   transform: translateY(-2px);
 }
